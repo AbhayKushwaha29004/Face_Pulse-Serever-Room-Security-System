@@ -46,19 +46,30 @@ RoomLock AI is a facial recognition-based security management system built to pr
 | Logging              | CSV + Relational DB   |
 
 ## 📁 Directory Structure
-Face_Pulse/
-├── attendance_gui.py
-├── manage.py
-├── requirements.txt
-├── venv/
-├── core_app/
-│   ├── models.py
-│   ├── views.py
-│   ├── urls.py
-│   └── templates/
-├── logs/
-│   └── attendance.csv
-└── static/
+project/
+│
+├── ImagesAttendance/ # Captured user datasets
+├── UnknownFaces/ # Logs unknown visitors
+├── VisitLog_YYYY-MM-DD.csv # Daily attendance file
+│
+├── face_attendance.py # Recognition + attendance logic
+├── capture_images.py # Image dataset collection
+├── view_attendance.py # GUI viewer for logs
+├── face_detection.py # Combined execution
+│
+├── static/ # UI assets like logos, background
+├── templates/ # HTML files (if Django used)
+│
+├── app2/ # Django app (models, views, urls)
+│ ├── models.py
+│ ├── views.py
+│ └── ...
+│
+├── db.sqlite3 # Django database (if used)
+├── manage.py # Django runner
+├── requirements.txt # Required packages
+└── README.md # This file
+
 ## 🚀 Setup & Installation
 
 1. **Clone the repository**
