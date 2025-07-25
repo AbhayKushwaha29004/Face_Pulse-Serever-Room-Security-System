@@ -32,8 +32,7 @@ A robust and scalable attendance management solution powered by face recognition
 
 1. **Clone the repository**
    `bash
-   git clone https://github.com/your-username/face-attendance-system.git
-   cd face-attendance-system
+   git clone https://github.com/AbhayKushwaha29004/Face_Pulse-Serever-Room-Security-System.git
 2. **Create a virtual environment**
   `python -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
