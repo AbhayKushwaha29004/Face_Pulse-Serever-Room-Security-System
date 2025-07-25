@@ -31,7 +31,7 @@ A robust and scalable attendance management solution powered by face recognition
 ## 🚀 Setup & Installation
 
 1. **Clone the repository**
-   ```bash
+   `bash
    git clone https://github.com/your-username/face-attendance-system.git
    cd face-attendance-system
 2. **Create a virtual environment**
