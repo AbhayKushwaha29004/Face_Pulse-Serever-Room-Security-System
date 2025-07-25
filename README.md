@@ -72,40 +72,41 @@ project/
 ## 🚀 Setup & Installation
 
 1. **Clone the repository**
-   `bash
-   git clone https://github.com/AbhayKushwaha29004/Face_Pulse-Serever-Room-Security-System.git
+    `bash
+     git clone https://github.com/AbhayKushwaha29004/Face_Pulse-Serever-Room-Security-System.git
    
-3. **Create a virtual environment**
-  `python -m venv venv`
-   Open project in environment
-   `source venv/bin/activate`
-   # On Windows use
-   `venv\Scripts\activate`
+2. **Create a virtual environment**
+     `python -m venv venv`
+     Open project in environment
+    `source venv/bin/activate`
+     On Windows use
+    `venv\Scripts\activate`
    
-4. **Install dependencies**
-  `pip install -r requirements.txt`
+3. **Install dependencies**
+    `pip install -r requirements.txt`
 
-6. **Run the Django server**
-  `python manage.py runserver`
+4. **Run the Django server**
+    `python manage.py runserver`
 
-7. **Launch the Tkinter client**
-   `python attendance_gui.py`
+5. **Launch the Tkinter client**
+    `python attendance_gui.py`
    
-8. **Database Setup**
-   - Ensure PostgreSQL or MySQL is installed and running.
-   - Create a database and update credentials in .env or settings.py.
-   - Run initial migrations:
-   `python manage.py makemigrations
-    python manage.py migrate`
+6. **Database Setup**
+     Ensure PostgreSQL or MySQL is installed and running.
+     Create a database and update credentials in .env or settings.py.
+     Run initial migrations:
+      `python manage.py makemigrations`
+      `python manage.py migrate`
 
-9. **Create a Superuser (for Django Admin Panel)**
-   `python manage.py createsuperuser`
+7. **Create a Superuser (for Django Admin Panel)**
+    `python manage.py createsuperuser`
    
-10. **Access the Admin Panel**
-   - Visit: `http://127.0.0.1:8000/admin`
-   - Log in with your superuser credentials.
+8. **Access the Admin Panel**
+      Visit: `http://127.0.0.1:8000/admin`
+      Log in with your superuser credentials.
      
-11. **NOTE:** username while facial recognition should be same as username in database.
+9. **NOTE:**
+      Username while facial recognition should be same as username in database.
   
 ## ✅ Future Enhancements
 - 🌐 Convert Tkinter interface to Streamlit for browser-based access
