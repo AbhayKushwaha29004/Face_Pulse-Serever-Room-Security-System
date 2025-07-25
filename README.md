@@ -67,9 +67,9 @@ Face_Pulse/
   `python -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 3. **Install dependencies**
-`pip install -r requirements.txt`
+  `pip install -r requirements.txt`
 4. **Run the Django server**
-`python manage.py runserver`
+  `python manage.py runserver`
 5. **Launch the Tkinter client**
    `python attendance_gui.py`
 6. **Database Setup**
@@ -84,5 +84,11 @@ Face_Pulse/
 - Visit: `http://127.0.0.1:8000/admin`
 - Log in with your superuser credentials.
    
-   
-   
+## ✅ Future Enhancements
+- 🌐 Convert Tkinter interface to Streamlit for browser-based access
+- 📶 Add real-time email/SMS alerts for unknown face detection
+- 📱 Integrate mobile webcam input via local network
+- 🔐 Encrypt saved embeddings for added biometric security
+## 👨‍💻 Author Abhay Kushwaha
+AI Developer with expertise in facial recognition, scalable deployment, and secure application design.
+🌟 Connect with me on https://www.linkedin.com/feed/update/urn:li:activity:7342164761763094528/ | 💡 Passionate about AI reasoning systems and building real-world tools.
