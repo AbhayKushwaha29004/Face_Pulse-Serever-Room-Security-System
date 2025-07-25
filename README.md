@@ -1,7 +1,7 @@
 # 🧠 RoomLock AI – Emphasizes secure access with intelligence.
 
+RoomLock AI is a facial recognition-based security management system built to protect server rooms and critical spaces with cutting-edge intelligence. Say goodbye to vulnerable ID cards and manual checks—RoomLock AI verifies identity through adaptive facial analysis powered by GPU-accelerated inference.
 
-A robust and scalable attendance management solution powered by face recognition. Built using **Python**, **Django**, **Tkinter**, and **Deep Learning** techniques (DeepFace + MTCNN), this system ensures secure and real-time tracking of attendance across roles and environments.
 
 ## 📌 Features
 
