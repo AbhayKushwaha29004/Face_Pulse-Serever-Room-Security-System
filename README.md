@@ -1,4 +1,5 @@
-# 🧠Face Recognition-Based Server Room Security Management System
+# 🧠 RoomLock AI – Emphasizes secure access with intelligence.
+
 
 A robust and scalable attendance management solution powered by face recognition. Built using **Python**, **Django**, **Tkinter**, and **Deep Learning** techniques (DeepFace + MTCNN), this system ensures secure and real-time tracking of attendance across roles and environments.
 
