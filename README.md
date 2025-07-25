@@ -17,6 +17,22 @@ A robust and scalable attendance management solution powered by face recognition
   - Django-powered admin portal for centralized control and insights.
 
 ## 🛠️ Technologies Used
+## 🧰 Technologies Used
+
+| Technology       | Description                                                                 | Icon Preview |
+|------------------|-----------------------------------------------------------------------------|--------------|
+| **Python**       | Core programming language for backend logic and integration                 | 🐍 ![Python](https://img.icons8.com/color/48/python.png) |
+| **Django**       | Web framework for backend APIs and admin dashboard                          | 🌐 ![Django](https://img.icons8.com/color/48/django.png) |
+| **Tkinter**      | GUI toolkit for desktop-based attendance interface                          | 🖥️ ![Tkinter](https://img.icons8.com/ios-filled/48/window.png) |
+| **DeepFace**     | Facial recognition library for identity verification                        | 🧠 ![DeepFace](https://img.icons8.com/fluency/48/artificial-intelligence.png) |
+| **MTCNN**        | Face detection model for accurate bounding box generation                   | 🎯 ![MTCNN](https://img.icons8.com/fluency/48/face-recognition.png) |
+| **OpenCV**       | Computer vision library for image processing and camera interfacing         | 📷 ![OpenCV](https://img.icons8.com/color/48/opencv.png) |
+| **PostgreSQL**   | Relational database for persistent attendance logging                       | 🗄️ ![PostgreSQL](https://img.icons8.com/color/48/postgresql.png) |
+| **MySQL**        | Alternative relational database option                                      | 💾 ![MySQL](https://img.icons8.com/color/48/mysql-logo.png) |
+| **Pandas**       | Data manipulation and CSV logging                                            | 📊 ![Pandas](https://img.icons8.com/color/48/pandas.png) |
+| **TensorFlow**   | Deep learning framework for GPU-accelerated inference                       | ⚙️ ![TensorFlow](https://img.icons8.com/color/48/tensorflow.png) |
+| **Keras**        | High-level neural network API used with TensorFlow                          | 🔧 ![Keras](https://img.icons8.com/color/48/keras.png) |
+| **python-decouple** | Environment variable management for secure config handling              | 🔐 ![Decouple](https://img.icons8.com/fluency/48/settings.png) |
 
 | Component            | Tool/Framework        |
 |----------------------|-----------------------|
@@ -40,3 +56,5 @@ A robust and scalable attendance management solution powered by face recognition
 `pip install -r requirements.txt`
 4. **Run the Django server**
 `python manage.py runserver`
+5. **Launch the Tkinter client**
+   `python attendance_gui.py
