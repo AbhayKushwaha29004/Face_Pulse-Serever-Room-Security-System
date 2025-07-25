@@ -44,6 +44,20 @@ A robust and scalable attendance management solution powered by face recognition
 | Database             | PostgreSQL / MySQL    |
 | Logging              | CSV + Relational DB   |
 
+## 📁 Directory Structure
+Face_Pulse/
+├── attendance_gui.py
+├── manage.py
+├── requirements.txt
+├── venv/
+├── core_app/
+│   ├── models.py
+│   ├── views.py
+│   ├── urls.py
+│   └── templates/
+├── logs/
+│   └── attendance.csv
+└── static/
 ## 🚀 Setup & Installation
 
 1. **Clone the repository**
@@ -57,4 +71,18 @@ A robust and scalable attendance management solution powered by face recognition
 4. **Run the Django server**
 `python manage.py runserver`
 5. **Launch the Tkinter client**
-   `python attendance_gui.py
+   `python attendance_gui.py`
+6. **Database Setup**
+ - Ensure PostgreSQL or MySQL is installed and running.
+ - Create a database and update credentials in .env or settings.py.
+ - Run initial migrations:
+   `python manage.py makemigrations
+    python manage.py migrate`
+7. **Create a Superuser (for Django Admin Panel)**
+   `python manage.py createsuperuser`
+8. **Access the Admin Panel**
+- Visit: `http://127.0.0.1:8000/admin`
+- Log in with your superuser credentials.
+   
+   
+   
