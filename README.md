@@ -2,7 +2,6 @@
 
 RoomLock AI is a facial recognition-based security management system built to protect server rooms and critical spaces with cutting-edge intelligence. Say goodbye to vulnerable ID cards and manual checks—RoomLock AI verifies identity through adaptive facial analysis powered by GPU-accelerated inference.
 
-
 ## 📌 Features
 
 - 🔍 **Facial Recognition Engine**
@@ -75,27 +74,39 @@ project/
 1. **Clone the repository**
    `bash
    git clone https://github.com/AbhayKushwaha29004/Face_Pulse-Serever-Room-Security-System.git
-2. **Create a virtual environment**
-  `python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-3. **Install dependencies**
+   
+3. **Create a virtual environment**
+  `python -m venv venv`
+   Open project in environment
+   `source venv/bin/activate`
+   # On Windows use
+   `venv\Scripts\activate`
+   
+4. **Install dependencies**
   `pip install -r requirements.txt`
-4. **Run the Django server**
+
+6. **Run the Django server**
   `python manage.py runserver`
-5. **Launch the Tkinter client**
+
+7. **Launch the Tkinter client**
    `python attendance_gui.py`
-6. **Database Setup**
- - Ensure PostgreSQL or MySQL is installed and running.
- - Create a database and update credentials in .env or settings.py.
- - Run initial migrations:
+   
+8. **Database Setup**
+   - Ensure PostgreSQL or MySQL is installed and running.
+   - Create a database and update credentials in .env or settings.py.
+   - Run initial migrations:
    `python manage.py makemigrations
     python manage.py migrate`
-7. **Create a Superuser (for Django Admin Panel)**
+
+9. **Create a Superuser (for Django Admin Panel)**
    `python manage.py createsuperuser`
-8. **Access the Admin Panel**
-- Visit: `http://127.0.0.1:8000/admin`
-- Log in with your superuser credentials.
    
+10. **Access the Admin Panel**
+   - Visit: `http://127.0.0.1:8000/admin`
+   - Log in with your superuser credentials.
+     
+11. **NOTE:** username while facial recognition should be same as username in database.
+  
 ## ✅ Future Enhancements
 - 🌐 Convert Tkinter interface to Streamlit for browser-based access
 - 📶 Add real-time email/SMS alerts for unknown face detection
